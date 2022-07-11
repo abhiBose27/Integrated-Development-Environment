@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UI.app">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1734" height="720"/>
+    </constraints>
+    <properties>
+      <background color="-12890934"/>
+      <minimumSize width="1280" height="720"/>
+      <preferredSize width="1280" height="720"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="fcdc3" binding="topBar" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14540252"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <toolbar id="5ec8f" binding="topTool">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1174251"/>
+              <borderPainted value="false"/>
+              <foreground color="-16777216"/>
+            </properties>
+            <border type="etched"/>
+            <children>
+              <component id="47218" class="javax.swing.JButton" binding="newButton">
+                <constraints/>
+                <properties>
+                  <background color="-855310"/>
+                  <borderPainted value="true"/>
+                  <contentAreaFilled value="true"/>
+                  <enabled value="true"/>
+                  <foreground color="-16777216"/>
+                  <icon value="Icons/pokeball-pokemon.gif"/>
+                  <iconTextGap value="4"/>
+                  <label value="New File"/>
+                  <maximumSize width="150" height="60"/>
+                  <minimumSize width="150" height="40"/>
+                  <opaque value="true"/>
+                  <text value="New File"/>
+                  <toolTipText value="Open a new file"/>
+                </properties>
+                <clientProperties>
+                  <hideActionText class="java.lang.Boolean" value="false"/>
+                </clientProperties>
+              </component>
+              <component id="d7328" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="eec1a" class="javax.swing.JButton" binding="openButton">
+                <constraints/>
+                <properties>
+                  <foreground color="-16777216"/>
+                  <icon value="Icons/pikachu (2).gif"/>
+                  <iconTextGap value="4"/>
+                  <maximumSize width="150" height="60"/>
+                  <text value="Open"/>
+                </properties>
+              </component>
+              <component id="4c19f" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="8b7cc" class="javax.swing.JButton" binding="saveButton">
+                <constraints/>
+                <properties>
+                  <foreground color="-16777216"/>
+                  <icon value="Icons/charizard-sprite.gif"/>
+                  <maximumSize width="150" height="60"/>
+                  <text value="Save"/>
+                </properties>
+              </component>
+              <component id="f9669" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="c01fb" class="javax.swing.JButton" binding="undo">
+                <constraints/>
+                <properties>
+                  <foreground color="-16777216"/>
+                  <icon value="Icons/dialga-sprite.gif"/>
+                  <maximumSize width="150" height="60"/>
+                  <text value="Undo"/>
+                </properties>
+              </component>
+              <component id="7bada" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="e6982" class="javax.swing.JButton" binding="redo_Btn">
+                <constraints/>
+                <properties>
+                  <foreground color="-16777216"/>
+                  <icon value="Icons/pokemon_snake.gif"/>
+                  <maximumSize width="150" height="60"/>
+                  <text value="Redo"/>
+                </properties>
+              </component>
+              <component id="75a38" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="ae646" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties>
+                  <background color="-4473925"/>
+                  <foreground color="-16777216"/>
+                  <maximumSize width="600" height="10"/>
+                  <minimumSize width="600" height="10"/>
+                  <preferredSize width="600" height="10"/>
+                  <requestFocusEnabled value="true"/>
+                  <separatorSize width="600" height="10"/>
+                </properties>
+              </component>
+              <component id="27412" class="javax.swing.JButton" binding="play_btn">
+                <constraints/>
+                <properties>
+                  <alignmentX value="1.0"/>
+                  <borderPainted value="true"/>
+                  <contentAreaFilled value="true"/>
+                  <horizontalAlignment value="0"/>
+                  <icon value="Icons/PlayBtn.png"/>
+                  <maximumSize width="100" height="60"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+                <clientProperties>
+                  <hideActionText class="java.lang.Boolean" value="false"/>
+                </clientProperties>
+              </component>
+              <component id="93f94" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="acf6a" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="7920d" class="javax.swing.JButton" binding="pause_btn">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <icon value="Icons/pauseBtn.png"/>
+                  <maximumSize width="100" height="60"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="207d6" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </toolbar>
+          <toolbar id="25bf0" binding="bottomTool">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="156" height="77"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-986896"/>
+            </properties>
+            <border type="etched"/>
+            <children>
+              <component id="c74c7" class="javax.swing.JButton" binding="runButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <foreground color="-16777216"/>
+                  <icon value="Icons/pikachu-running-sprite.gif"/>
+                  <maximumSize width="150" height="60"/>
+                  <text value="Run"/>
+                </properties>
+              </component>
+              <component id="3870c" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="b4e38" class="javax.swing.JButton" binding="deleteBtn">
+                <constraints/>
+                <properties>
+                  <foreground color="-16777216"/>
+                  <icon value="Icons/giratina-sprite.gif"/>
+                  <maximumSize width="150" height="60"/>
+                  <text value="Delete"/>
+                </properties>
+              </component>
+            </children>
+          </toolbar>
+        </children>
+      </grid>
+      <grid id="898ba" binding="BottomPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12890934"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <tabbedpane id="1f30" binding="tabbedPane1" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="4d133" binding="codeBLocks" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="Console"/>
+                </constraints>
+                <properties>
+                  <foreground color="-16777216"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="e85c9" class="javax.swing.JTextArea" binding="ConsoleText">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </tabbedpane>
+        </children>
+      </grid>
+      <tabbedpane id="32893" binding="openedFilesPanel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="594" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8704"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </tabbedpane>
+      <tabbedpane id="45896" binding="sidePanel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="200"/>
+            <preferred-size width="200" height="200"/>
+            <maximum-size width="200" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="25017" binding="projectsTab" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Project"/>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <scrollpane id="d7b95">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="8e5f1" class="javax.swing.JTree" binding="tree1" default-binding="true">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
