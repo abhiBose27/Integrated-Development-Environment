@@ -1,7 +1,4 @@
 # IDE
-Development of IDE using JAVA and Java Swing
+Development of IDE using JAVA and Swing(Java tool)
 
-It is basically a school Project where we had our Prof as our client who asked us to have certain features in our IDE. He asked for a Pokemon theme IDE.
-We used Rsyntaxtext library. For configurtion we have added rsyntan .jar file.
-
-Enjoy!!
+Development of IDE that resembles Code Blocks. Implemented using Java and Swing (Java tool). Has the functionality to load and delete projects with required syntax highlighting using rsyntaxtextarea, and can compile C, C++, Java files.
